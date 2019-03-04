@@ -4,3 +4,6 @@
 [submodule "personal-backend"]
 	path = personal-backend
 	url = https://github.com/MycroftAI/personal-backend.git
+[submodule "mycroft-skills"]
+	path = mycroft-skills
+	url = https://github.com/builderjer/mycroft-skills.git
