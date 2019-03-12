@@ -28,7 +28,8 @@ This is the main living area where most everything happens.  It will be broken d
 ##### Kitchen
 This is a large, but not huge kitchen that is being remodeled.  The dimensions are aprox 12'x18'.  The kitchen is equiped with new high effency GE appliances with a slate finish.
   
-- Electronics
+**Electronics.**
 Idealy, there will be a main touchscreen interface mounted in a cabinet.  This should be able to act as a callendar, a recipe book, and maybe a video interface for streaming Netflix or video calls.  I believe all of this could be controlled by a single Raspberry Pi3 and a series of Arduinos.
-  - Raspberry Pi3
-  This should connect to the main server webpage which maybe uses nodejs to interface back to the Arduinos.  I also want an instance of [MycroftAI](https://github.com/MycroftAI/mycroft-core) and all of it's awesome skills to help controll everything by voice commands.
+
+**Raspberry Pi3.**
+This should connect to the main server webpage which maybe uses nodejs to interface back to the Arduinos.  I also want an instance of [MycroftAI](https://github.com/MycroftAI/mycroft-core) and all of it's awesome skills to help controll everything by voice commands.
