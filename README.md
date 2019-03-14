@@ -6,7 +6,7 @@ This is an always changing project.  Check back often for updates.
 Any ideas or comments are welcome!!
 
 ### Table of Contents
-1. [Concept](#1._concept)
+1. [Concept](#concept)
 2. [House](#house)
 3. [Upstairs](#upstairs)
     * [Pantry/Porch](#pantry/porch)
@@ -40,19 +40,19 @@ Any ideas or comments are welcome!!
 8. [Lower Driveway](#lower_driveway)
 9. [Shop](#shop)
 
-#### 1. Concept
+#### Concept
   * The idea is to develop a smarthome with the lowest possible investment.  I will be using several Raspberry pi's and Arduinos to do the light lifting, and an always on server to do the heavy part...I think.  
   * Idealy, I would love to make my home self sufficent also, with solar and wind power charging a battery bank and LED lighting for energy efficient.
   * I want this home to be a true 'Smart Home'.  This means that it will learn habbits of it's occupants, and adjust settings (at least the ones allowed in the settings) automaticly.  This will require an array of different sensors including motion and light, temperature and humidity, door and window sensors, and maybe bluetooth for occupancy.
   
-#### 2. House
+#### House
   * My concept house is aprox. 3000 sq/ft with a main level, and a walk-out basement.
   * The main level consists of the kitchen, living area, two smaller bedrooms, an office, a full guest bath, and the master suite.
   * The walk-out basement has a wetbar area, a biliard room / game room, a small living area, a bathroom, small bedroom, a storage area, and the mechanical room.
   * The existing heating/cooling system is a combination forced air system.  This limits climate control to a certain extent, but I have some ideas that may help with that.
   * All of the gas appliances have been converted to propane.
 
-#### 3. Upstairs
+#### Upstairs
   * This is the main living area where most everything happens.  It will be broken down into several smaller sections.  
 
     * ##### Kitchen
