@@ -1,0 +1,155 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5C89A079
+P 6650 4050
+F 0 "R?" H 6720 4096 50  0000 L CNN
+F 1 "R" H 6720 4005 50  0000 L CNN
+F 2 "" V 6580 4050 50  0001 C CNN
+F 3 "~" H 6650 4050 50  0001 C CNN
+	1    6650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C89A0D6
+P 5300 3350
+F 0 "R?" H 5370 3396 50  0000 L CNN
+F 1 "R" H 5370 3305 50  0000 L CNN
+F 2 "" V 5230 3350 50  0001 C CNN
+F 3 "~" H 5300 3350 50  0001 C CNN
+	1    5300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_PJFET_GSD Q?
+U 1 1 5C89A81F
+P 6550 3350
+F 0 "Q?" H 6741 3396 50  0000 L CNN
+F 1 "Q_PJFET_GSD" H 6741 3305 50  0000 L CNN
+F 2 "" H 6750 3450 50  0001 C CNN
+F 3 "~" H 6550 3350 50  0001 C CNN
+	1    6550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 5C89AB69
+P 5800 3700
+F 0 "Q?" H 5991 3746 50  0000 L CNN
+F 1 "2N3904" H 5991 3655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6000 3625 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5800 3700 50  0001 L CNN
+	1    5800 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5C89C66E
+P 4550 3350
+F 0 "J?" H 4656 3528 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4656 3437 50  0000 C CNN
+F 2 "" H 4550 3350 50  0001 C CNN
+F 3 "~" H 4550 3350 50  0001 C CNN
+	1    4550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C89C731
+P 5450 4300
+F 0 "#PWR?" H 5450 4050 50  0001 C CNN
+F 1 "GND" H 5455 4127 50  0000 C CNN
+F 2 "" H 5450 4300 50  0001 C CNN
+F 3 "" H 5450 4300 50  0001 C CNN
+	1    5450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3450 4950 3450
+Wire Wire Line
+	4950 3450 4950 4300
+Wire Wire Line
+	4950 4300 5450 4300
+Wire Wire Line
+	5450 4300 5700 4300
+Wire Wire Line
+	6650 4300 6650 4200
+Connection ~ 5450 4300
+Wire Wire Line
+	6650 3900 6650 3700
+Wire Wire Line
+	6000 3700 6650 3700
+Connection ~ 6650 3700
+Wire Wire Line
+	6650 3700 6650 3550
+Wire Wire Line
+	5700 3900 5700 4300
+Connection ~ 5700 4300
+Wire Wire Line
+	5700 4300 6650 4300
+Wire Wire Line
+	6350 3350 5700 3350
+Wire Wire Line
+	5150 3350 4750 3350
+Wire Wire Line
+	5700 3500 5700 3350
+Connection ~ 5700 3350
+Wire Wire Line
+	5700 3350 5450 3350
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5C89CEDE
+P 6650 2500
+F 0 "J?" V 6710 2540 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 6801 2540 50  0000 L CNN
+F 2 "" H 6650 2500 50  0001 C CNN
+F 3 "~" H 6650 2500 50  0001 C CNN
+	1    6650 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 2700 6650 3150
+$Comp
+L power:+12V #PWR?
+U 1 1 5C89D05E
+P 6050 2650
+F 0 "#PWR?" H 6050 2500 50  0001 C CNN
+F 1 "+12V" H 6065 2823 50  0000 C CNN
+F 2 "" H 6050 2650 50  0001 C CNN
+F 3 "" H 6050 2650 50  0001 C CNN
+	1    6050 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2700 6550 2800
+Wire Wire Line
+	6550 2800 6050 2800
+Wire Wire Line
+	6050 2800 6050 2650
+$Comp
+L Connector_Generic:Conn_02x12_Top_Bottom J?
+U 1 1 5C89D4F3
+P 2100 5050
+F 0 "J?" H 2150 5767 50  0000 C CNN
+F 1 "Conn_02x12_Top_Bottom" H 2150 5676 50  0000 C CNN
+F 2 "" H 2100 5050 50  0001 C CNN
+F 3 "~" H 2100 5050 50  0001 C CNN
+	1    2100 5050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
