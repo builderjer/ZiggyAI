@@ -1,0 +1,203 @@
+EESchema Schematic File Version 4
+LIBS:sprinkler-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Relay:G5V-2 K?
+U 1 1 5CEBF8E1
+P 2600 2800
+F 0 "K?" V 1833 2800 50  0000 C CNN
+F 1 "G5V-2" V 1924 2800 50  0000 C CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 3250 2750 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 2400 2800 50  0001 C CNN
+	1    2600 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:G5V-2 K?
+U 1 1 5CEBF96C
+P 3900 2800
+F 0 "K?" V 3133 2800 50  0000 C CNN
+F 1 "G5V-2" V 3224 2800 50  0000 C CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 4550 2750 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 3700 2800 50  0001 C CNN
+	1    3900 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:G5V-2 K?
+U 1 1 5CEBF9B7
+P 5200 2800
+F 0 "K?" V 4433 2800 50  0000 C CNN
+F 1 "G5V-2" V 4524 2800 50  0000 C CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 5850 2750 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 5000 2800 50  0001 C CNN
+	1    5200 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:G5V-2 K?
+U 1 1 5CEBFA35
+P 6400 2800
+F 0 "K?" V 5633 2800 50  0000 C CNN
+F 1 "G5V-2" V 5724 2800 50  0000 C CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 7050 2750 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 6200 2800 50  0001 C CNN
+	1    6400 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x08 J?
+U 1 1 5CEC6984
+P 1400 1100
+F 0 "J?" V 1617 1046 50  0000 C CNN
+F 1 "Screw_Terminal_01x08" V 1526 1046 50  0000 C CNN
+F 2 "" H 1400 1100 50  0001 C CNN
+F 3 "~" H 1400 1100 50  0001 C CNN
+	1    1400 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x08 J?
+U 1 1 5CEC6A6A
+P 2500 1100
+F 0 "J?" V 2717 1046 50  0000 C CNN
+F 1 "Screw_Terminal_01x08" V 2626 1046 50  0000 C CNN
+F 2 "" H 2500 1100 50  0001 C CNN
+F 3 "~" H 2500 1100 50  0001 C CNN
+	1    2500 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 2400 2050 2400
+Wire Wire Line
+	2050 2400 2050 1900
+Wire Wire Line
+	2050 1900 3350 1900
+Wire Wire Line
+	3350 1900 3350 2400
+Wire Wire Line
+	3350 2400 3600 2400
+Wire Wire Line
+	3350 1900 4650 1900
+Wire Wire Line
+	4650 1900 4650 2400
+Wire Wire Line
+	4650 2400 4900 2400
+Connection ~ 3350 1900
+Wire Wire Line
+	4650 1900 5850 1900
+Wire Wire Line
+	5850 1900 5850 2400
+Connection ~ 4650 1900
+Wire Wire Line
+	1100 1300 1100 1900
+Wire Wire Line
+	1100 1900 2050 1900
+Connection ~ 2050 1900
+Wire Wire Line
+	1200 1300 1200 1800
+Wire Wire Line
+	1200 1800 3150 1800
+Wire Wire Line
+	3150 1800 3150 2400
+Wire Wire Line
+	3150 2400 2900 2400
+Wire Wire Line
+	1300 1300 1300 1700
+Wire Wire Line
+	1300 1700 4450 1700
+Wire Wire Line
+	4450 1700 4450 2400
+Wire Wire Line
+	4450 2400 4200 2400
+Wire Wire Line
+	1400 1300 1400 1600
+Wire Wire Line
+	1400 1600 5650 1600
+Wire Wire Line
+	5650 1600 5650 2400
+Wire Wire Line
+	5650 2400 5500 2400
+Wire Wire Line
+	1500 1300 1500 1500
+Wire Wire Line
+	1500 1500 6900 1500
+Wire Wire Line
+	6900 1500 6900 2400
+Wire Wire Line
+	6900 2400 6700 2400
+Wire Wire Line
+	2200 1300 2200 1400
+Wire Wire Line
+	2200 2800 2300 2800
+Wire Wire Line
+	2200 1400 3450 1400
+Wire Wire Line
+	3450 1400 3450 2800
+Wire Wire Line
+	3450 2800 3600 2800
+Connection ~ 2200 1400
+Wire Wire Line
+	2200 1400 2200 2800
+Wire Wire Line
+	3450 1400 4750 1400
+Wire Wire Line
+	4750 1400 4750 2800
+Wire Wire Line
+	4750 2800 4900 2800
+Connection ~ 3450 1400
+Wire Wire Line
+	4750 1400 5950 1400
+Connection ~ 4750 1400
+Wire Wire Line
+	5850 2400 6100 2400
+Wire Wire Line
+	5950 1400 5950 2800
+Wire Wire Line
+	5950 2800 6100 2800
+Wire Wire Line
+	2900 2900 3050 2900
+Wire Wire Line
+	3050 2900 3050 1850
+Wire Wire Line
+	3050 1850 2300 1850
+Wire Wire Line
+	2300 1850 2300 1300
+Wire Wire Line
+	4200 2900 4350 2900
+Wire Wire Line
+	4350 2900 4350 1750
+Wire Wire Line
+	4350 1750 2400 1750
+Wire Wire Line
+	2400 1750 2400 1300
+Wire Wire Line
+	5500 2900 5700 2900
+Wire Wire Line
+	5700 2900 5700 1650
+Wire Wire Line
+	5700 1650 2500 1650
+Wire Wire Line
+	2500 1650 2500 1300
+Wire Wire Line
+	6700 2900 7000 2900
+Wire Wire Line
+	7000 2900 7000 1550
+Wire Wire Line
+	7000 1550 2600 1550
+Wire Wire Line
+	2600 1550 2600 1300
+$EndSCHEMATC
