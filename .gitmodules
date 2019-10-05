@@ -7,3 +7,9 @@
 [submodule "mycroft-skills"]
 	path = mycroft-skills
 	url = https://github.com/builderjer/mycroft-skills.git
+[submodule "thermostat"]
+	path = thermostat
+	url = https://github.com/builderjer/thermostat.git
+[submodule "communications-skill"]
+	path = communications-skill
+	url = https://github.com/builderjer/communications-skill.git
