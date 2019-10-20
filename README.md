@@ -44,6 +44,7 @@ Any ideas or comments are welcome!!
   * The idea is to develop a smarthome with the lowest possible investment.  I will be using several Raspberry pi's and Arduinos to do the light lifting, and an always on server to do the heavy part...I think.  
   * Idealy, I would love to make my home self sufficent also, with solar and wind power charging a battery bank and LED lighting for energy efficient.
   * I want this home to be a true 'Smart Home'.  This means that it will learn habbits of it's occupants, and adjust settings (at least the ones allowed in the settings) automaticly.  This will require an array of different sensors including motion and light, temperature and humidity, door and window sensors, and maybe bluetooth for occupancy.
+  * There are several items that are shared between rooms, such as sensor modules and switches.  Each of these items will have it's own link and description.
   
 #### House
   * My concept house is aprox. 3000 sq/ft with a main level, and a walk-out basement.
@@ -63,4 +64,5 @@ Any ideas or comments are welcome!!
         * My idea is to use an Android 10" tablet here.  That way it can run a web page frontend and possably a Mycroft client.  Maybe connect the tablet to the Raspberry Pi as a virtual desktop.
         * **Raspberry Pi3.**
           * This should connect to the main server webpage which maybe uses nodejs to interface back to the Arduinos.
+          * I have also been looking into [pymata](https://github.com/MrYsLab/pymata-aio), but have not made a decision yet.  The advanatge to this would be there are several interfaces with several different languages.  It also allows for the Arduinos to just run one specific firmware and allows the main interface to do the work.  
           * I also want an instance of [MycroftAI](https://github.com/MycroftAI/mycroft-core) and all of it's awesome skills to help controll everything by voice commands.
